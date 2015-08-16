@@ -1,0 +1,49 @@
+﻿body {
+}
+.phone {
+    overflow-y: scroll;
+    text-align: center;
+}
+.obj {
+    border: 2px solid white;
+    position: relative;
+    padding-bottom: 24px;
+}
+.price {
+    border: 1px solid white;
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.obj_tel {
+    border: 1px solid white;
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.price::after {
+    content: ' рублей';
+}
+.input_req {
+    font-size: 25px;
+    display: none;
+}
+#but_load_new {
+    display: none;
+}
+.type_obj {
+    border: 2px solid white;
+}
+label {
+    display: block;
+    font-size: 18px;
+}
+input[type=checkbox] {
+    display: none;
+}
+input[type=checkbox]:checked + label {
+    color: black;
+    background: white;
+}

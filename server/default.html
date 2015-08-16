@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>Voljsky</title>
+
+    <!-- Ссылки WinJS -->
+    <!-- Во время выполнения ui-themed.css разрешается в ui-themed.light.css или ui-themed.dark.css 
+    в зависимости от установленной у пользователя темы. Это часть функциональности загрузки ресурсов MRT. -->
+    <link href="/css/ui-themed.css" rel="stylesheet" />
+    <script src="//Microsoft.Phone.WinJS.2.1/js/base.js"></script>
+    <script src="//Microsoft.Phone.WinJS.2.1/js/ui.js"></script>
+
+    <!-- Ссылки DB_list -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+<body class="phone">
+    <h1 class="headerClass">Arend Волгоград</h1>
+    <section class="mainContent">
+        <article class="filter">
+            <input type="text" id="min_pr" placeholder="Минимальная цена"/><br />
+            <input type="text" id="max_pr" placeholder="Максимальная цена"/><br />
+            <article class="input_req">Вводите только цифры!</article>
+            <article class="type_obj">
+                <input type="checkbox" name="ot1" id="ot1" />
+                <label for="ot1">1-комнатная</label>
+                <input type="checkbox" name="ot2" id="ot2" />
+                <label for="ot2">2-комнатная</label>
+                <input type="checkbox" name="ot3" id="ot3" />
+                <label for="ot3">3 и более комнатная</label>
+                <input type="checkbox" name="ot12" id="ot12" />
+                <label for="ot12">Комната</label>
+                <input type="checkbox" name="ot27" id="ot27" />
+                <label for="ot27">Частный дом</label>
+                <input type="checkbox" name="ot20" id="ot20" />
+                <label for="ot20">Общежитие</label>
+            </article>
+            <input type="button" id="but_sub_filter" value="Применить" />
+        </article>
+        <section class="obj_list">
+            <!-- Место для списка -->
+        </section>
+        <input type="button" value="Ещё" id="but_load_new" />
+    </section>
+</body>
+</html>

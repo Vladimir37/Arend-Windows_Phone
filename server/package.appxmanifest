@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="36876Neumann.Arend" Version="1.1.0.1" Publisher="CN=98FA3B2F-4CC4-496E-B1B8-16EB7D550462" />
+  <mp:PhoneIdentity PhoneProductId="52ecf145-d35e-4303-af0a-6725db5a6afd" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Arend Волгоград</DisplayName>
+    <PublisherDisplayName>Neumann</PublisherDisplayName>
+    <Logo>images\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m3:VisualElements DisplayName="Arend Волгоград" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png" Description="Arend Волгоград - это приложение для поиска сдаваемого жилья в Волгограде. Здесь вы можете найти недвижимость любого типа и в любом ценовом диапазоне.  Вам не придётся долго искать жильё и связываться с различными агентами - здесь только прямые номера собственников!" ForegroundText="light" BackgroundColor="transparent" ToastCapable="false">
+        <m3:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" Square71x71Logo="images\Square71x71Logo.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="images\SplashScreen.png" />
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+</Package>
